@@ -1,0 +1,10 @@
+use_default_settings: true
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "ganti_dengan_kunci_rahasia_acak_apa_saja" 
+
+search:
+  safe_search: 0 # 0 = None, 1 = Moderate, 2 = Strict
+  autocomplete: "google"
